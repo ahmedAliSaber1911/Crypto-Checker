@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'crypto-checker';
+  selectedcurrency:string ="USD";
+  sendCurrency(event:string){
+    this.selectedcurrency = event;
+  }
 }
