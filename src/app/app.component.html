@@ -1,6 +1,6 @@
-<p>
+
   <mat-toolbar class="nav">
-    <span>Cyptro Checker</span>
+    <span ><a href="#" routerLink="/coin-list" class="logo"> Cyptro Checker</a></span>
     <span class="example-spacer">
       <mat-form-field>
         <mat-select [(ngModel)]="selectedcurrency" (valueChange)=" sendCurrency($event)">
@@ -10,4 +10,4 @@
       </mat-form-field>
     </span>
   </mat-toolbar>
-</p>
+<router-outlet></router-outlet>

@@ -1,0 +1,52 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  margin-bottom: 65px;
+  h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-size: 3.75rem;
+    line-height: 1.2;
+    letter-spacing: 0.0083em;
+    font-weight: bold;
+  }
+  h6{
+    font-size: .8rem;
+    font-weight: 500;
+    color: darkgray;
+    line-height: 1.57;
+    letter-spacing: 0,00714em;
+  }
+}
+.banner{
+  background-image: url(../../assets/banner2.jpg);
+  height: 400px;
+  width: 100%;
+}
+.sub-header{
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.card {
+  border: 0;
+  background: transparent;
+  color: #fff;
+  padding: 10px;
+  margin: 40px;
+  width: 100px;
+  height: 200px;
+  img {
+      width: 70px;
+      margin: 0 auto;
+  }
+  h5 {
+      font-weight: 500;
+  }
+  p {
+      font-weight: 700;
+  }
+}
